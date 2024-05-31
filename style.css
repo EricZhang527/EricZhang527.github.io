@@ -108,12 +108,9 @@
     /* Add more styles as needed */
 }
 .image {
-  width: 200px; /* Set the width of the container as needed */
-  margin: 0 auto; /* Center the container and create margins on each side */
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  
+  position: absolute;
+  top: 10%;
+  right: 10%; /* Adjust this value as needed */
 }
 
 .background{
@@ -124,20 +121,6 @@
   text-align: center;
 }
 
-
-
-  .image-container {
-    width: 80%; /* Set the width of the container as needed */
-    margin: 0 auto; /* Center the container and create margins on each side */
-    align-items: center;
-    justify-content: center;
-    float: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-
-  
     .clickable-box {
         position: fixed;
         bottom: 20px; /* Adjust distance from the bottom */
