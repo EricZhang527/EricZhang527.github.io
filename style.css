@@ -108,10 +108,14 @@
     /* Add more styles as needed */
 }
 .image {
-  position: absolute;
-  top: 10%;
-  right: 10%; /* Adjust this value as needed */
+text-align: center;
 }
+
+h1{
+text-align: center;
+}
+
+p{text-align: center;}
 
 .background{
     display: block;
@@ -160,4 +164,4 @@
         width: 100%;
         text-align: center;
         background-color: #f1f1f1; /* Optional: background color */
-        padding: 10px; /* Optional: padding */}
+        padding: 2px; /* Optional: padding */}
